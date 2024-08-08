@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tapp"
+version = "0.1.0"
+description = ""
+authors = ["author"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+opencv-python = "<4.8"
+numpy = "<2"
+pynput = "^1.7.7"
+pygame = "^2.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
